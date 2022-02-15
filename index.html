@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="add" id="add-todo-btn">Todos App</div>
+    <div class="AddTodo" id="add-todo-div">
+      <form class="todos">
+        <label for="name">Name</label>
+        <input id="name" type="text" />
+        <label for="description">Description</label>
+        <input id="description" type="text" />   
+      </form>
+      <button id="save">Save</button>
+    </div>
+
+    <div class="TodoContainer">
+      <ul class="EnteredTodos" id="EnteredTodos"></ul>
+    </div>
+    </div>
+
+    <script src="Todo.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
